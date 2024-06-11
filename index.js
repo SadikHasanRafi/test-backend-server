@@ -43,7 +43,6 @@ async function run(){
   run().catch(console.dir)
 
 app.get('/', (req, res) => {
-  console.log("object");
     res.send("Winter Rescue BD");
 });
 
